@@ -1,0 +1,55 @@
+.head{
+    text-align: center;
+
+}
+
+.registration_and_login_form
+{
+    width:400px;
+    margin-top: 100px;
+    margin-left:600px;
+    padding: 20px;
+    border:2px solid #090808;
+    border-radius:10px;
+    background-color:white;
+    text-align:left;
+    position: relative;
+    box-shadow:0 20px 35px rgba(0,0,1,0.9);
+    background:white;
+   
+}
+
+.registration_and_login_form input[type="text"],
+.registration_and_login_form input[type="email"],
+.registration_and_login_form input[type="password"]
+{
+    width:300px;
+    margin:auto;
+    padding:10px;
+    border:1px solid black;
+    border-radius:10px;
+    
+}
+
+
+.registration_and_login_form input[type="submit"],
+.registration_and_login_form input[type="button"]
+{
+    padding:10px 30px 10px 30px;
+    background-color:blueviolet;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left:140px;
+    cursor: pointer;
+    
+    
+}
+
+.registration_and_login_form input[type="submit"]:hover,
+.registration_and_login_form input[type="button"]:hover
+{
+    background-color:lightskyblue;
+}
+
+
